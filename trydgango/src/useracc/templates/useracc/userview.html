@@ -1,0 +1,12 @@
+{% extends "useracc/base.html" %}
+{% block content %}
+	<legend class="border-bottom mb-4"> Cooks</legend> 
+	{% for account in accounts %}
+        <article class="media content-section">
+
+          <div class="media-body">
+            <h2><a class="article-title" href="{% url 'create' account.id %}">{{account.username}}</a></h2>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
