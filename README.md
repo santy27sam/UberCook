@@ -12,4 +12,4 @@ password: Santy2709
 username: NewUser1
 password: Santy2709
 
-You can also create new user in the sign up url and use it login. After Login, you can see the user names listed and can choose the user to update the records.
+You can also create new user in the sign up url and can use it to login. After Login, the user names will be listed and can choose the user to update the records.
